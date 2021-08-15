@@ -1,0 +1,128 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.topnav{
+    overflow: hidden;
+    padding: -1px;
+
+}
+
+.topnav a, span {
+    float: left;
+    color: #000000;
+    text-align: right;
+    padding: 15px 7px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    left: 1680px;
+    top: -15px;
+    z-index: 10;
+  }
+
+  .logo {
+
+    position: relative;
+    left: 790px;
+    top: 200px;
+  }
+  
+  .search {
+      position: relative;
+      left: 680px;
+      top: 210px;
+      
+  }
+
+  input {
+      width: 500px;
+      height: 35px;
+      border: 1px solid rgb(216, 216, 216);
+      border-radius: 10px;
+  }
+  input:focus
+{
+    border: 2px solid #dfdfdf;
+    box-shadow: 0 0 10px #dfdfdf;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.language {
+    position: relative;
+    left: 800px;
+    top: 270px;
+}
+
+  .icon{
+    position: relative;
+    top: 33px;
+    left: 470px;
+    color: rgb(143, 143, 143);
+  }
+
+  input[type=submit] {
+    
+    background-color: #f0f0f0;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  .srchbttn {
+    height: 40px;
+    width: 125px;
+    font-size: 14px;
+    position: relative;
+    left: 800px;
+    top: 240px;
+    border-radius: 1px;
+  }
+
+  .luckbttn {
+    height: 40px;
+    width: 125px;
+    font-size: 14px;
+    position: relative;
+    left: 800px;
+    top: 240px;
+    border-radius: 1px;
+}
+
+input[type=submit]:hover {
+    border: 2px solid #dfdfdf;
+    box-shadow: 0 0 10px #dfdfdf;
+    outline-offset: 0px;
+    outline: none;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 5px;
+   height: 40px;
+   width: 100%;
+   background-color: rgb(233, 233, 233);
+   color: rgb(0, 0, 0);
+   }
+
+.foot {
+    position: relative;
+    padding: 7px;
+    top: 6px;
+    color: solid black;
+}
+
+a:hover { text-decoration: none; color:rgb(0, 0, 0); }
+a:focus { text-decoration: none; color:black; }
+a:active { text-decoration: none; color:black; }
+a:visited { text-decoration: none; color:black; }
