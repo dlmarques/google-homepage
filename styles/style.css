@@ -1,5 +1,7 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
